@@ -28,11 +28,11 @@ public class Student{
         double average = calculateAverage();
         if (80 <= average && average <= 100 ){
             return "A";
-        } else if (70 <= average && average <= 79){
+        } else if (70 <= average && average < 80){
             return "B";
-        } else if (60 <= average && average <= 69){
+        } else if (60 <= average && average < 70){
             return "C";
-        } else if (50 <= average && average <= 59){
+        } else if (50 <= average && average < 60){
             return "D";
         } else {
             return "F";
