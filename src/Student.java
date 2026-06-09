@@ -40,7 +40,7 @@ public class Student{
     }
 
     public static void main(String[] args){
-        Student student = new Student("David", 70, 90, 80);
+        Student student = new Student("David", 80, 90, 80);
         student.displayInfo();
     }
 }
